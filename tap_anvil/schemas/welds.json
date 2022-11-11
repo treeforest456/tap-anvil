@@ -26,14 +26,9 @@
       ]
     },
     "publishedAt": {
-      "anyOf": [
-        {
-          "type": "null"
-        },
-        {
-          "format": "date-time",
-          "type": "string"
-        }
+      "type": [
+        "null",
+        "string"
       ]
     },
     "hasUnpublishedChanges": {
@@ -100,47 +95,27 @@
       ]
     },
     "createdAt": {
-      "anyOf": [
-        {
-          "type": "null"
-        },
-        {
-          "format": "date-time",
-          "type": "string"
-        }
+      "type": [
+        "null",
+        "string"
       ]
     },
     "updatedAt": {
-      "anyOf": [
-        {
-          "type": "null"
-        },
-        {
-          "format": "date-time",
-          "type": "string"
-        }
+      "type": [
+        "null",
+        "string"
       ]
     },
     "archivedAt": {
-      "anyOf": [
-        {
-          "type": "null"
-        },
-        {
-          "format": "date-time",
-          "type": "string"
-        }
+      "type": [
+        "null",
+        "string"
       ]
     },
     "expiresAt": {
-      "anyOf": [
-        {
-          "type": "null"
-        },
-        {
-          "format": "date-time",
-          "type": "string"
-        }
+      "type": [
+        "null",
+        "string"
       ]
     },
     "organizationSlug": {
